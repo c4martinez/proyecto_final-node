@@ -1,3 +1,6 @@
+## Realizado por:
+# Carlos Martínez
+
 Este es un proyecto de una API de restaurantes. Se puede usar para crear, leer, actualizar y eliminar información de restaurantes.
 
 A lo largo de este proyecto se aplico el "SOLID PRINCIPAL: Single-responsibility principle". Ademas de otros que estan indicados en sus archivos
@@ -16,9 +19,9 @@ ejecute un docker-compose up -d para crear el contenedor en docker
 
 Clone el repositorio.
 
-Instale (yarn install) las dependencias del proyecto con el comando npm install.
+Instale (yarn install) las dependencias del proyecto
 
-Inicie el servidor una vez activado el Docker con el comando yarm run start (desarrollo) y yarn run prod (produccín).
+Inicie el servidor con el comando yarm run start (desarrollo) y yarn run prod (producción)
 
 ---
 
@@ -36,7 +39,7 @@ Para eliminar un restaurante, haga una solicitud DELETE a http://localhost:3000/
 
 Recuerde reemplazar id con el ID del restaurante que desea actualizar o eliminar.
 
-los datos a insertar son estos
+## Datos de Ejemplo:
 {
 "name": "Test.", //string y unico
 "address": "test", //string

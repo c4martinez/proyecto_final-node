@@ -7,7 +7,6 @@ interface RestaurantDocument extends Document {
   cuisine: string;
 }
 
-// Convierte un documento de restaurante en un objeto del dominio Restaurant
 export function createRestaurantFromModel(
   restaurantDocument: RestaurantDocument,
 ): Restaurant {
