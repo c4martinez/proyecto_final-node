@@ -55,3 +55,6 @@ Para pasar a produccion debemos hacer un yarn run build
 Una vez creada nuestra carpeta Dist, hacemos un yarn run prod para iniciar nuestra App
 
 y con nuestro docker activo, probamos nuevamente las rutas anteriores
+
+## Para generar la imagen
+correr el comando docker build -t {nombre y versión} 
