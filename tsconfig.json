@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "target": "es6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node"
+  },
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts",
+    "src/mongo-init/init.js"
+  ] /* Permite definir donde se va a encontrar el codigo a compilar/transpilar*/,
+  "exclude": ["node_modules"] /* Permite ignorar directorios*/
+}
